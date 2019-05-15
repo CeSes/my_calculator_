@@ -24,6 +24,11 @@
             var num = document.getElementById("n1");
             num.value = Math.pow(num.value, 2);
         }
+
+        function inverse() {
+            var num = document.getElementById("n1");
+            num.value = 1 / num.value;
+        }
     </script>
 </head>
 
@@ -36,6 +41,7 @@
         <button onclick="sin()"> Sin(x) </button>
         <button onclick="al4ta()"> x^4 </button>
         <button onclick="square()"> x^2 </button>
+        <button onclick="inverse()"> 1/x </button>
     </p>
 </body>
 
